@@ -1,8 +1,4 @@
-// ExpressionEvaluator.cpp : Defines the entry point for the console application.
-//
-// for unary minus
-// https://stackoverflow.com/questions/20246787/handling-unary-minus-for-shunting-yard-algorithm
-
+// @author Caleb Strain 
 
 #include <iostream>
 #include "Stack.h"
@@ -405,6 +401,8 @@ int main(int argc, char* argv[])
 				ofs << lines[i] << "=" << actualResultValue;
 		}
 	}
-
+	
+	delete[] results;
+	
 	return 0;
 }

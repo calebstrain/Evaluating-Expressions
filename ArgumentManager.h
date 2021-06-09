@@ -5,7 +5,7 @@
 using namespace std;
 
 
-// This is a class that can parse the commnad line arguments we use in COSC 2430 homework.
+
 class ArgumentManager {
 private:
 	map<string, string> m_argumentMap;
